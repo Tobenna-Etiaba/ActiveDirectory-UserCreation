@@ -84,3 +84,26 @@ Following up on the setup I will be demonstrating how I was able to join the Win
 
 <img width="754" alt="Screenshot 2025-02-07 at 13 59 52" src="https://github.com/user-attachments/assets/f0881190-ddb7-48de-b02e-860ec72d2ef5" />
 
+- I logged back into User as *mydomain.com\tony_admin* and went to remote desktop to allow Domain Users access to remote desktop.
+
+<img width="1200" alt="Screenshot 2025-02-07 at 14 02 28" src="https://github.com/user-attachments/assets/dd7bac09-6d9d-4385-970c-ca7586fbdccf" />
+
+<img width="1201" alt="Screenshot 2025-02-07 at 14 02 41" src="https://github.com/user-attachments/assets/69b41182-6ffb-4e11-82f2-854bf59bb818" />
+
+<img width="832" alt="Screenshot 2025-02-07 at 14 04 24" src="https://github.com/user-attachments/assets/4b20e997-ac5f-4398-b968-28625bb1a2f4" />
+
+I logged back into Server and opened powershell ISE as an administrator and copied a pre-written script into and ran the code to create a whole bunch of users(The users created can be seen under _EMPLOYEES in active directory users and computers).
+
+<img width="786" alt="Screenshot 2025-02-07 at 14 05 27" src="https://github.com/user-attachments/assets/08d5d001-3638-46db-9a75-3c54e1fb2fea" />
+
+<img width="1376" alt="Screenshot 2025-02-07 at 14 07 59" src="https://github.com/user-attachments/assets/62c48a51-8110-4554-acb7-57c96384c467" />
+
+<img width="1539" alt="Screenshot 2025-02-07 at 14 08 34" src="https://github.com/user-attachments/assets/a310efe5-49b9-40dc-ae64-cef2e776fba1" />
+
+<img width="1133" alt="Screenshot 2025-02-07 at 14 08 59" src="https://github.com/user-attachments/assets/58a58698-7ef6-430e-a29a-6ad6da10fe40" />
+
+<img width="753" alt="Screenshot 2025-02-07 at 14 09 53" src="https://github.com/user-attachments/assets/2cdb52ac-1117-43c2-bfdc-25a429b5c513" />
+
+- I logged back into User using one of the created users from the script.
+
+<img width="1146" alt="Screenshot 2025-02-07 at 14 18 04" src="https://github.com/user-attachments/assets/3131ea0c-84f5-4176-95ce-69b5420f4b97" />
