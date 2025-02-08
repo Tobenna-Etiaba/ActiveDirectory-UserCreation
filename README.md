@@ -3,13 +3,14 @@
 <br />
 
 <h1>ActiveDirectory (Part 2 - Joining The VMs & Creating Users)</h1>
-Following up on the setup I will be demonstrating how I was able to join the Windows 10 VM to the Windows server as well as creating a wide array of users that can log into the Windows 10 VM.
+Following up on the setup I will be demonstrating how I was able to join the Windows 10 VM to the Windows Server as well as creating a wide array of users that can log into the Windows 10 VM.
 
 <h2>Tools Used</h2>
 
 - Microsoft Azure
 - Remote Desktop
 - Powershell
+- Powershell ISE
 
 <h2>Operating Systems Used</h2>
 
@@ -18,7 +19,7 @@ Following up on the setup I will be demonstrating how I was able to join the Win
 
 <h2>Step By Step Process</h2>
 
-- From within the Windows Server VM*(will be calling it Server from here on out)* I went to the server manager to install active directory domain services.
+- From within the Windows Server VM *(will be calling it Server from here on out)* I went to the server manager to install active directory domain services.
 
 <img width="637" alt="Screenshot 2025-02-07 at 13 17 30" src="https://github.com/user-attachments/assets/5d70559a-88b7-4ef2-b62c-ff5dd28293ac" />
 
@@ -66,7 +67,7 @@ Following up on the setup I will be demonstrating how I was able to join the Win
 
 <img width="1150" alt="Screenshot 2025-02-07 at 13 50 22" src="https://github.com/user-attachments/assets/ec63cf78-00f1-46d9-943f-d53f47cd9ab6" />
 
-- After logging back in the next thing was to join the windows 10 VM (I'll be calling it User from here on out) to Server.
+- After logging back in the next thing to do was to join the windows 10 VM *(I'll be calling it User from here on out)* to Server.
 
 <img width="1178" alt="Screenshot 2025-02-07 at 13 52 44" src="https://github.com/user-attachments/assets/eeed621b-12c3-4966-8bee-507461bd76c5" />
 
@@ -92,7 +93,7 @@ Following up on the setup I will be demonstrating how I was able to join the Win
 
 <img width="832" alt="Screenshot 2025-02-07 at 14 04 24" src="https://github.com/user-attachments/assets/4b20e997-ac5f-4398-b968-28625bb1a2f4" />
 
-I logged back into Server and opened powershell ISE as an administrator and copied a pre-written script into and ran the code to create a whole bunch of users(The users created can be seen under _EMPLOYEES in active directory users and computers).
+I logged back into Server and opened powershell ISE as an administrator and copied a pre-written script into it and ran the code to create a whole bunch of users(The users created can be seen under _EMPLOYEES in active directory users and computers).
 
 <img width="786" alt="Screenshot 2025-02-07 at 14 05 27" src="https://github.com/user-attachments/assets/08d5d001-3638-46db-9a75-3c54e1fb2fea" />
 
